@@ -7,7 +7,9 @@ class User(ABC):
     def __init__(self, userId, name):
         self.userId = userId
         self.name = name
-
+    def login(self):
+        # Logic to login a user
+        pass
 
 class Organizer(User):
     def registerShow(self, showName, genre):

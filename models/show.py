@@ -16,10 +16,10 @@ class Show:
         else:
             print(f"Slot {startTime} already exists.")
 
-    def bookTicket(self, userId, timeSlot, noOfPersons):
-        # Logic to book tickets for a show
-        pass
-
-    def cancelTicket(self, bookingId):
-        # Logic to cancel a booking and free the slot
-        pass
+    # def bookTicket(self, userId, timeSlot, noOfPersons):
+    #     # Logic to book tickets for a show
+    #     pass
+    #
+    # def cancelTicket(self, bookingId):
+    #     # Logic to cancel a booking and free the slot
+    #     pass
